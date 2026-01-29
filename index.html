@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight Layers: FMA Instructor Development Assessment</title>
+    <meta name="description" content="Self-assessment tool for Filipino Martial Arts instructors to identify development needs across eight foundational layers.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Introduction Screen -->
+        <div id="intro-screen" class="screen active">
+            <header>
+                <h1>Eight Layers</h1>
+                <p class="subtitle">FMA Instructor Development Assessment</p>
+            </header>
+            
+            <div class="content">
+                <p class="lead">Leadership in Filipino Martial Arts isn't something you perform or learn in a weekend course. It emerges naturally when you strengthen foundational competencies across eight critical layers.</p>
+                
+                <div class="layers-preview">
+                    <h3>The Eight Foundational Layers:</h3>
+                    <ol>
+                        <li>Technical Skill & Fundamentals</li>
+                        <li>Teaching Ability</li>
+                        <li>Maturity & Judgment</li>
+                        <li>Program Identity & Mission</li>
+                        <li>Curriculum & Operations</li>
+                        <li>Community & Culture (Stewardship)</li>
+                        <li>Student Responsibility & Alignment</li>
+                        <li>Leadership (Emergent)</li>
+                    </ol>
+                </div>
+                
+                <div class="info-box">
+                    <h4>What to Expect:</h4>
+                    <ul>
+                        <li>48 questions across all eight layers</li>
+                        <li>Takes approximately 10-15 minutes</li>
+                        <li>Honest self-reflection required</li>
+                        <li>Instant personalized results</li>
+                        <li>Actionable development paths</li>
+                    </ul>
+                </div>
+                
+                <p class="privacy-note"><strong>Privacy:</strong> This assessment runs entirely in your browser. No data is collected or stored.</p>
+                
+                <button id="start-btn" class="btn-primary">Begin Assessment</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            
+            <div class="quiz-header">
+                <span id="layer-name" class="layer-name"></span>
+                <span id="question-counter" class="question-counter"></span>
+            </div>
+            
+            <div id="question-container" class="question-container">
+                <!-- Questions will be injected here -->
+            </div>
+            
+            <div class="navigation">
+                <button id="prev-btn" class="btn-secondary" disabled>Previous</button>
+                <button id="next-btn" class="btn-primary">Next</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <header>
+                <h1>Your Assessment Results</h1>
+                <p class="subtitle">Development areas identified</p>
+            </header>
+            
+            <div class="results-summary">
+                <canvas id="results-chart"></canvas>
+            </div>
+            
+            <div id="strengths-section" class="results-section">
+                <h2>✅ Strength Areas</h2>
+                <div id="strengths-list"></div>
+            </div>
+            
+            <div id="development-section" class="results-section">
+                <h2>⚠️ Development Priorities</h2>
+                <div id="development-list"></div>
+            </div>
+            
+            <div class="action-steps">
+                <h2>Your Development Path</h2>
+                <div id="action-steps-container"></div>
+            </div>
+            
+            <div class="closing-message">
+                <p><strong>Remember:</strong> Leadership emerges when you strengthen these foundations. You don't need a course — you need to do this work consistently.</p>
+                <p>Revisit this assessment every 6 months to track your growth.</p>
+            </div>
+            
+            <div class="results-actions">
+                <button id="print-btn" class="btn-secondary">Print Results</button>
+                <button id="restart-btn" class="btn-primary">Retake Assessment</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Developed by <a href="https://trainpekiti.com" target="_blank">TrainPekiti</a> / FMA Insider Podcast</p>
+        <p>Based on Filipino martial arts teaching traditions and stewardship principles</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/results.js"></script>
+</body>
+</html>
