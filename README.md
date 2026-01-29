@@ -1,6 +1,6 @@
 # Eight Layers: FMA Instructor Development Assessment
 
-## The Problem with "Leadership Training"
+## Beyond Leadership: The Eight Foundational Layers
 
 Here's what they won't tell you: **leadership isn't something you perform or purchase in a weekend course.**
 
