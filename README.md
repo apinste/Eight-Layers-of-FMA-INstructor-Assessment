@@ -64,7 +64,7 @@ An interactive, self-assessment diagnostic for Filipino Martial Arts instructors
 
 ## Live Demo
 
-**[Take the Assessment →](https://YOUR-USERNAME.github.io/eight-layers-fma-instructor-assessment/)**
+**[Take the Assessment →](https://apinste.github.io/Eight-Layers-of-FMA-Instructor-Assessment/)**
 
 *(Takes approximately 10-15 minutes)*
 
@@ -193,4 +193,4 @@ This tool gives you the questions. The commitment is yours.
 
 **Take the assessment. Do the work. Grow as an instructor.**
 
-[**→ Begin Assessment**](https://YOUR-USERNAME.github.io/eight-layers-fma-instructor-assessment/)
+[**→ Begin Assessment**](https://apinste.github.io/Eight-Layers-of-FMA-Instructor-Assessment/)
